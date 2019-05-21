@@ -1,0 +1,107 @@
+/* CSS Reset settings here  */
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkblue;
+   }
+#container{
+    width: 960px;
+    height:700px;
+    background-color: darkblue;
+    margin: 0px auto;
+    padding: 5px;
+   }
+#header{
+    min-height: 50px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(207,48,54);
+    border-radius: 10px;
+    line-height: 500%;
+}
+#navigation{
+    width: 160px;
+    min-height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(42,125,140);
+    display: inline-block;
+    vertical-align: top;
+}
+.navigation{
+    color: aquamarine;
+    background-color:  rgb(42,125,140);
+    margin-left: 10px;
+}
+.navigation_link{
+    color: aquamarine;
+    background-color:  rgb(42,125,140);
+    text-decoration: underline;
+    margin-left: 10px;
+}
+#main_content{
+    min-height: 400px;
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:rgb(14,24,34);
+    display: inline-block;
+}
+.main_content{
+    background-color:rgb(14,24,34);
+    color: azure;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.main_content_link{
+    background-color:rgb(14,24,34);
+    color: aquamarine;
+    text-decoration: underline;
+}
+.main_content_high{
+    background-color:rgb(14,24,34);
+    color: darkorchid;
+}
+ul .main_content{
+    padding-left: 10px;
+}
+
+.subcontents{
+    width: 160px;
+    min-height: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkslategray;
+}
+#bottom_nav{
+    min-height: 50px;
+    margin: 10px;
+    background-color:rgb(93,102,115);
+    border-radius: 10px;
+    padding: 10px;
+}
+.bottom_nav{
+    margin: 15px;
+    background-color:rgb(93,102,115);
+}
+.bottom_nav_link{
+    background-color:rgb(93,102,115);
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+h1{
+    color: beige;
+    background-color: rgb(207,48,54);
+    
+    vertical-align:  middle;
+    /* padding: 10px; */
+}
+.link{
+    color: aquamarine;
+    text-emphasis: underline;
+}
+
